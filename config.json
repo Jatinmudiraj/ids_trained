@@ -1,0 +1,31 @@
+{
+    "monitoring": {
+        "sources": [
+            {
+                "path": "/var/log/auth.log",
+                "domain": "ssh",
+                "enabled": true
+            },
+            {
+                "path": "/raid/home/geeta/geeta/Trained_IDS/test_logs.txt",
+                "domain": "linux",
+                "enabled": true
+            }
+        ],
+        "window_size": 20,
+        "min_lines_for_inference": 5
+    },
+    "detection": {
+        "model_path": "/raid/home/geeta/geeta/Trained_IDS/model/trained_ids.joblib",
+        "global_threshold": 0.25,
+        "confidence_blocking_threshold": 0.40
+    },
+    "response": {
+        "enabled": true,
+        "block_duration_seconds": 3600,
+        "iptables_enabled": true
+    },
+    "storage": {
+        "db_path": "/raid/home/geeta/geeta/Trained_IDS/ids_history.db"
+    }
+}

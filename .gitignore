@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model and Data
+ids_history.db
+test_logs.txt
+*.log
+persistence.log
+simulator.log
+training.log
+training_with_acc.log
+
+# Logs directory
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+v2_env/
+.env
