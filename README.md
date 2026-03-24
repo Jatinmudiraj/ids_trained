@@ -1,7 +1,7 @@
-# ANTIGRAVITY: Trained_IDS
-### Advanced Intelligent Intrusion Detection System (Custom Trained Version)
+# ADVANCED: Trained_IDS
+### Advanced Advanced Intrusion Detection System (Custom Trained Version)
 
-Trained_IDS is a specialized branch of the ANTIGRAVITY IDS ecosystem, designed to be retrained on environment-specific logs. Unlike the general-purpose versions, this IDS is fine-tuned to detect anomalous activities based on custom-provided datasets (Auth, Syslog, Audit).
+Trained_IDS is a specialized branch of the ADVANCED IDS ecosystem, designed to be retrained on environment-specific logs. Unlike the general-purpose versions, this IDS is fine-tuned to detect anomalous activities based on custom-provided datasets (Auth, Syslog, Audit).
 
 ## 🚀 Key Features
 - **Custom Trained Intelligence**: Achieves **100.00% accuracy** on provided environmental logs.
@@ -57,4 +57,4 @@ Modify `config.json` to add new log sources or adjust detection thresholds.
 ```
 
 ---
-*Created by ANTIGRAVITY AI*
+*Created by ADVANCED AI*

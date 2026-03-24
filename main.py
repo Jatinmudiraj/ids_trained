@@ -15,7 +15,7 @@ class IDS_App(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("ANTIGRAVITY IDS — Advanced Threat Security")
+        self.setWindowTitle("ADVANCED IDS — Advanced Threat Security")
         self.setMinimumSize(1100, 750)
         self.setStyleSheet(GLASSS_STYLE)
 
@@ -28,7 +28,7 @@ class IDS_App(QMainWindow):
 
         # 2. Top Bar
         top_bar = QHBoxLayout()
-        header = QLabel("ANTIGRAVITY IDS")
+        header = QLabel("ADVANCED IDS")
         header.setObjectName("Header")
         
         self.status_label = QLabel("🛡️ PROTECTION: ACTIVE")

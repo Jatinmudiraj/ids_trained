@@ -7,7 +7,7 @@ LOG_OUT="$BASE_DIR/ids_cli_final.log"
 SIM_LOG="$BASE_DIR/simulator.log"
 PASSWORD="geeta"
 
-echo "[*] Starting ANTIGRAVITY IDS Persistence Layer..."
+echo "[*] Starting ADVANCED IDS Persistence Layer..."
 
 # 1. Ensure simulator is running
 if ! ps aux | grep -v grep | grep "simulate_logs.py" > /dev/null; then
